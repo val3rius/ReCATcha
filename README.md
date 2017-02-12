@@ -26,7 +26,7 @@ $recatcha_client = new Recatcha\MuchEnterprise\SDK\RecatchaClient($server_addr, 
 $response = $recatcha_client->send($data);
 ```
 ### The ReCATcha javascript browser client
-The javascript browser client provides an easy way to quickly the ReCATcha functionality to your forms. Simply include the `<div id="recatcha"></div>` element within your HTML form, instantiate the client with a simple options object and the rest will handle itself automatically! Note: Currently only Chrome is supported. For in-depth, working examples, please have a look in the `/example` folder. The quickest way to get a demo going is running the python server above in one terminal (at port 8899) and then use the PHP dev-server to fire up the example page:
+The javascript browser client provides an easy way to quickly add the ReCATcha functionality to your forms. Simply include the `<div id="recatcha"></div>` element within your HTML form, instantiate the client with a simple options object and the rest will handle itself automatically! Note: Currently only Chrome is supported. For in-depth, working examples, please have a look in the `/example` folder. The quickest way to get a demo going is running the python server above in one terminal (at port 8899) and then use the PHP dev-server to fire up the example page:
 ```
 $ cd example && php -S localhost:8888
 ```
